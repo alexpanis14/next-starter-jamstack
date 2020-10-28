@@ -10,7 +10,7 @@ const Index = () => (
             <a> Welcome to Gamer's Lobby! Start Exploring Now</a>        
         </Link>
         </p>
-      <script src="//alpa-xpsingle-single.azurewebsites.net/bundle/beacon"></script>
+      <script src="https://alpa-xpsingle-single.azurewebsites.net/bundle/beacon"></script>
     </Layout>    
   );
 
