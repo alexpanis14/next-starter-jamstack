@@ -17,7 +17,7 @@ const Index = () => (
         </tr>
         <tr>
             <td>
-            {/* <img src="/banner31.png" alt="my image" width="80%" height="80%"></img> */}
+            <script src="//alpa-xpsingle-single.azurewebsites.net/bundle/beacon"></script>
             </td>
         </tr>
       </table>
