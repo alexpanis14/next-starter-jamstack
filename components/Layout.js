@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 import Header from "./Header";
+import Banner from "./Banner";
 import NavBar from "./NavBar";
 
 import "./Layout.scss";
@@ -20,6 +21,7 @@ const Layout = props => {
       </Head>
 
       <Header appTitle={appTitle} />
+      <Banner />
       <div className="Content">{props.children}</div>
       <NavBar navButtons={navButtons} />
     </div>

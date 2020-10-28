@@ -17,7 +17,7 @@ const Index = () => (
         </tr>
         <tr>
             <td>
-            <img src="/banner31.png" alt="my image" width="80%" height="80%"></img>
+            {/* <img src="/banner31.png" alt="my image" width="80%" height="80%"></img> */}
             </td>
         </tr>
       </table>

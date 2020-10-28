@@ -1,0 +1,22 @@
+@import "../theme/theme";
+
+.Banner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+    height: 30%;
+    width: 100%;
+  
+    // padding: 1px 1px;
+  
+    font-family: $logo-font;
+    font-size: 24px;
+    font-weight: bold;
+    color: $on-secondary;
+    text-transform: uppercase;
+  
+    background: $highlight;
+  
+    cursor: pointer;
+  }

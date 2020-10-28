@@ -12,28 +12,21 @@
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
 
+    padding: 5px 3px;
     width: 100%;
 
     background: $secondary;
     color: $on-secondary;
     font-family: $core-font;
+    font-size: x-large;
 
     a {
       color: inherit;
     }
 
-    table 
-    {
-      text-align: center;      
-    }
-
-    img 
-    {
-      box-shadow: 0 0 5px 2px #282a2d;
-      line-height: 1.4;
-    }
+    
 
   }
 }
