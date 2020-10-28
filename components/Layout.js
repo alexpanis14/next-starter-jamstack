@@ -6,6 +6,8 @@ import NavBar from "./NavBar";
 import "./Layout.scss";
 import "./index.scss";
 
+import navButtons from "../config/buttons";
+
 const Layout = props => {
   const appTitle = `> Gamer's Lobby`;
 
@@ -19,7 +21,7 @@ const Layout = props => {
 
       <Header appTitle={appTitle} />
       <div className="Content">{props.children}</div>
-      <NavBar />
+      <NavBar navButtons={navButtons} />
     </div>
   );
 };
