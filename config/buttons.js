@@ -8,12 +8,13 @@ import {
   faUser,
   faShoppingCart
 } from "@fortawesome/free-solid-svg-icons";
+import Server from "next/dist/next-server/server/next-server";
 
 const navButtons = [
   {
     label: "Explore",
-    path: "/explore",
-    icon: <FontAwesomeIcon icon={faCompass} />
+    path: "/explore",    
+    icon: <FontAwesomeIcon icon={faCompass} />    
   },
   {
     label: "Near Me",
